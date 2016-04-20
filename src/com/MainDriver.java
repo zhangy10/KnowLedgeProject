@@ -4,10 +4,10 @@ import com.core.ProcessorType;
 import com.search.SearchType;
 
 /**
- * Main driver for this knowledge technology project. In this project, matching
- * between a list of film titles and a list of film reviews is key task.
- * Meanwhile, it will deal with the simple sentiment analysis to decide how
- * goodness each review is for each film title.
+ * This is the main driver for this knowledge technology project. In this
+ * project, matching between a list of film titles and a list of film reviews is
+ * key task. Meanwhile, it will deal with the simple sentiment analysis to
+ * decide how goodness each review is for each film title.
  * 
  * This can be executed by using either Java command line or the well-known IDE
  * (Eclipse) as a simple Java Project. In particular, both of the multi-thread
