@@ -80,7 +80,7 @@ USAGE
 RESULT FORMAT
 =============
 For example the result as follows:
-#<My Giant>_Reviewed by: // The film title.
+<My Giant>_Reviewed by: // The film title.
 <41387.txt|negative"-"> Global: similarity (0.75) distance (6) // The matched list of the reviews 
 <18725.txt|negative"-"> Global: similarity (0.63) distance (5) // including "positive" or "negative" befind the review file name.
 <18075.txt|> Global: similarity (0.75) distance (6)
