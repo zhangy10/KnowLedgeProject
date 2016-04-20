@@ -73,7 +73,18 @@ USAGE
 
 1. First of all, the data-set folder path (Absolute file path) should be updated before running this project only if the the target path is changed or updated. The folder path (ReadFile.FOLDER_PATH) is defined in the ReadFile.java 
 2. Executing this project as a simple Java Project and the MainDriver.java is the main entrance of the project.
-3. If executing by using cluster environment, there are 2 different ways to test this environment. One is to set up the MPJ express local environment variables and using the Eclipse (preferred) to execute with the vm arguments, -jar ${MPJ_HOME}/lib/starter.jar -np 8. The 8 means there are 8 processors simultaneously to do the same searching task. Another way is to upload the code onto the Spartan server and using the script file (node_1_8.sh) provided under this folder to run this. Due to package compiling issues, all of the codes should be refactor and moved into the default package, otherwise the ClassNotFoundException will occur during the compiling process.
+3. If executing by using cluster environment, there are 2 different ways to test. One of the wyas is to set up the MPJ express local environment variables and using the Eclipse (preferred) to execute with the vm arguments, -jar ${MPJ_HOME}/lib/starter.jar -np 8. The 8 means there are 8 processors simultaneously to do the same searching task. Another way is to upload the code onto the Spartan server and using the script file (node_1_8.sh) provided under this folder to run this. Due to package compiling issues, all of the codes should be refactor and moved into the default package, otherwise the ClassNotFoundException will occur during the compiling process.
+
+
+=============
+RESULT FORMAT
+=============
+For example the result as follows:
+#<My Giant>_Reviewed by: // The film title.
+<41387.txt|negative"-"> Global: similarity (0.75) distance (6) // The matched list of the reviews 
+<18725.txt|negative"-"> Global: similarity (0.63) distance (5) // including "positive" or "negative" befind the review file name.
+<18075.txt|> Global: similarity (0.75) distance (6)
+
 
 
 
