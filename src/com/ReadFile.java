@@ -30,13 +30,8 @@ import com.beans.Review;
  */
 public class ReadFile {
 
-    // public static final String FOLDER_PATH =
-    // "/home/subjects/comp90049/submission/zhangy10/";
-    // public static final String FOLDER_PATH =
-    // "/Users/zhangyu/Desktop/KTData/";
-
     /* The absolute data-set folder path. */
-    public static final String FOLDER_PATH = "/Users/zhangyu/Desktop/TestData/";
+    public static final String FOLDER_PATH = "/home/subjects/comp90049/submission/zhangy10/";
     public static final String TITLE_PATH = FOLDER_PATH + "film_titles.txt";
     public static final String REVIEW_PATH = FOLDER_PATH + "revs/";
     public static final String OUTPUT_PATH = FOLDER_PATH + "result.txt";
