@@ -22,12 +22,14 @@ StringEngine.java      - For starting to execute the String matching task by giv
 
 
 com/beans/
+
 MatchKey.java          - A data structure for presenting matched results.
 
 Review.java            - Each film review structure.
 
 
 com/cluster/
+
 MPJHelper.java         - Being used to communicate with each processor based on the MPJ express library.
 
 MPJSpartan.java        - Provideing a cluster environment that can allow this project execute onto the Spartan Cluster server.
@@ -35,6 +37,7 @@ MPJSpartan.java        - Provideing a cluster environment that can allow this pr
 node_1_8.sh            - Running script.
 
 com/core/
+
 MatchProcessor.java    - For processing string matching tasks.
 
 Processor.java         - Provideing a general processing template.
@@ -45,6 +48,7 @@ SentimentProcessor.java- For processing the Sentiment Identification tasks.
 
 
 com/distance/
+
 Distance.java          - For representing the implementation of different Edit distance algorithms.
 
 GlobalDistance.java    - The implementation of the Global Edit Distance algorithm based on the NeedlemanWunsch.
@@ -53,6 +57,7 @@ LocalDistance.java     - The implementation of the Local Edit Distance algorithm
 
 
 com/search/
+
 ApproxSearch.java      - For representing Approximate searching approaches.
 
 ExactSearch.java       - Exact searching approach by using regular expression.
